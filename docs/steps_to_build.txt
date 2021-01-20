@@ -1,0 +1,17 @@
+# For windows
+
+# Prerequisits cmake v3.14 or later
+
+# 1. Create "build" directory in project folder
+# 2. Open "build" directory in cmd
+# 3. Execute the following command in cmd
+cmake -DSHOW_FPS=ON ..
+
+# This will create "voxel_engine.sln" in "build" folder
+# Open "voxel_engine.sln" file with Visual Studio (v19 recommended)
+# Select Release configuration.
+# And Build ALL [Ctrl+Shift+B].
+# This will create executable in "build/Release" folder
+# Last thing you have to copy "res" folder to "build/Release"
+
+Now you can execute "voxel_engine.exe" in build/Release
